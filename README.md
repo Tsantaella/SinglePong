@@ -9,24 +9,6 @@ Toni Santaella Trujillo - 1526913
 
 Kilian Niubó Vinuesa - 1497932
 
-## Table of Contents
-
-[Project description](#_heading=h.gjdgxs) 1
-
-[Electronic components](#_heading=h.30j0zll) 1
-
-[Hardware Scheme](#_heading=h.1fob9te) 2
-
-[Software Architecture](#_heading=h.ik8oj8cnfs6x) 3
-
-[Amazing contributions](#_heading=h.aulg56cwhsgi) 4
-
-[Extra components and 3D pieces](#_heading=h.3znysh7) 5
-
-[Simulation Strategy](#_heading=h.rx614yyclz3w) 6
-
-[Foreseen risks and contingency plan](#_heading=h.2et92p0) 6
-
 ## Single Pong
 
 # Project description
