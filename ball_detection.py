@@ -16,6 +16,7 @@ if not args.get("image", False):
 else:
     im = cv2.imread(args["image"])
 
+im = cv2.medianBlur(im,19)
 greenLower = (36, 25, 25)
 greenUpper = (86, 255, 255)
 #pts = deque(maxlen=args["buffer"])
