@@ -25,12 +25,13 @@ public class ScriptBall : MonoBehaviour
 
     void OnMouseOver()
     {
+        Debug.Log("mouseHover");
         if(timer < 0)
         {
             Vector3 vect = new Vector3(0, 0, -10);
 
             rigidbody.AddForce(vect * force);
-            time = 5.0f;
+            time = 0.5f;
             timer = time;
         }
         // if (Input.GetKeyDown(KeyCode.Space))
