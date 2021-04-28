@@ -1,0 +1,468 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 12163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ger-m/UnityProjects/pong
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1752
+Successfully changed project path to: C:/Users/ger-m/UnityProjects/pong
+C:/Users/ger-m/UnityProjects/pong
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ger-m/UnityProjects/pong/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6611
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002210 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 141.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 4.320500 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.185800 ms MarkObjects: 3.013100 ms  DeleteObjects: 0.726100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NatureStarterKit2/Materials/skybox.mat
+  artifactKey: Guid(39cace2863926444a9a78daa8ae26413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/skybox.mat using Guid(39cace2863926444a9a78daa8ae26413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4733e5963cd397ca4e0cc2e4867fa1de') in 0.200603 seconds
+  Import took 0.209288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/NatureStarterKit2/Materials/sky.mat
+  artifactKey: Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/sky.mat using Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba7c839584eedb6dc868ed45a495e66') in 0.026342 seconds
+  Import took 0.033520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.844333 seconds.
+  path: Assets/NatureStarterKit2/Materials/sky.mat
+  artifactKey: Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/sky.mat using Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba7c839584eedb6dc868ed45a495e66') in 0.026616 seconds
+  Import took 0.034517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.879914 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush
+  artifactKey: Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush using Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3464260e35b0d10454cba894dc4a9302') in 0.036652 seconds
+  Import took 0.047603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022704 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush
+  artifactKey: Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush using Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3464260e35b0d10454cba894dc4a9302') in 0.023069 seconds
+  Import took 0.031635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.442996 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01.prefab
+  artifactKey: Guid(d638ef2ca2fe20c4c9c08e125692d3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush01.prefab using Guid(d638ef2ca2fe20c4c9c08e125692d3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6f9eef80077fb27772f3e23bb56a74') in 0.098084 seconds
+  Import took 0.103471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree02.prefab
+  artifactKey: Guid(c63ea781a273235439e583799176c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree02.prefab using Guid(c63ea781a273235439e583799176c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a796650d116f32cae68368d7667a33') in 0.050155 seconds
+  Import took 0.055793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03.prefab
+  artifactKey: Guid(4e2dd32c733005a44b50004d673dc653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree03.prefab using Guid(4e2dd32c733005a44b50004d673dc653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a61c7ed0a56d42bff49ddf8f8787a') in 0.048732 seconds
+  Import took 0.054458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03.prefab
+  artifactKey: Guid(9c74caa742791864f9c678287121e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush03.prefab using Guid(9c74caa742791864f9c678287121e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5183299be85e5d76828d7cec55cedc09') in 0.051972 seconds
+  Import took 0.056731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05.prefab
+  artifactKey: Guid(bb660abd3b29d9f44866fd79795dbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush05.prefab using Guid(bb660abd3b29d9f44866fd79795dbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddb2d1c43905ad9b9348a9ec4e3c4c4') in 0.048557 seconds
+  Import took 0.053251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06.prefab
+  artifactKey: Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush06.prefab using Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac254753089641145327d8fb1407ded0') in 0.045867 seconds
+  Import took 0.052154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02.prefab
+  artifactKey: Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush02.prefab using Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb63be7670d7686415e8abe23045a3f') in 0.054630 seconds
+  Import took 0.060535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04.prefab
+  artifactKey: Guid(aae542b8a65f39b49b008fa689ce9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree04.prefab using Guid(aae542b8a65f39b49b008fa689ce9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3235536d311b4732cf3ce0a66f1ece97') in 0.044270 seconds
+  Import took 0.049782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree01.prefab
+  artifactKey: Guid(393b236c42954a640b513d46de90ac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree01.prefab using Guid(393b236c42954a640b513d46de90ac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03c3be274c1b9451734afc215fd5f2') in 0.048709 seconds
+  Import took 0.053843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04.prefab
+  artifactKey: Guid(d15b44addf30da74f946086ec0aa993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush04.prefab using Guid(d15b44addf30da74f946086ec0aa993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92e46f7e34c869d4b2e8d51a1b38905') in 0.049823 seconds
+  Import took 0.055184 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3013.
+Total: 3.566400 ms (FindLiveObjects: 0.593200 ms CreateObjectMapping: 0.154200 ms MarkObjects: 2.360300 ms  DeleteObjects: 0.456700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 810.121679 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects
+  artifactKey: Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects using Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616037ba17d7530e3820f8d0c3715dbd') in 0.018458 seconds
+  Import took 0.026496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001547 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects
+  artifactKey: Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects using Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616037ba17d7530e3820f8d0c3715dbd') in 0.004054 seconds
+  Import took 0.011760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.915283 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground012023054508611406.terrainlayer
+  artifactKey: Guid(00decc5b83569cc428a23f39c2f3ff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground012023054508611406.terrainlayer using Guid(00decc5b83569cc428a23f39c2f3ff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4abea466353bff868ad98ad0b7b7f9') in 0.068780 seconds
+  Import took 0.075043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.811411 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground038f9406e577a89d2d.terrainlayer
+  artifactKey: Guid(edb541d80146c354eb5f8c13376c3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground038f9406e577a89d2d.terrainlayer using Guid(edb541d80146c354eb5f8c13376c3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa52f465b55459486378782d4e9eef90') in 0.022923 seconds
+  Import took 0.029027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.056053 seconds.
+  path: Assets/NatureStarterKit2/Animations/cameraanim.anim
+  artifactKey: Guid(7789fd8934a705745a05db5f410316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Animations/cameraanim.anim using Guid(7789fd8934a705745a05db5f410316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db5684699bc0797026ab4d82d9d15d2') in 0.114128 seconds
+  Import took 0.119906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.704931 seconds.
+  path: Assets/NatureStarterKit2/Animations/Main Camera.controller
+  artifactKey: Guid(85adcab9e891c3d4ea49d5de4b88ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Animations/Main Camera.controller using Guid(85adcab9e891c3d4ea49d5de4b88ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1508463ac5f68acf6c169cb6ee497139') in 0.096809 seconds
+  Import took 0.102318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.867294 seconds.
+  path: Assets/NatureStarterKit2/Materials/bark01.mat
+  artifactKey: Guid(429dd90a38598a6439cac85af03f10df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/bark01.mat using Guid(429dd90a38598a6439cac85af03f10df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fba515f24731ec5aa9e2863f365b1d') in 0.257386 seconds
+  Import took 0.263853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/NatureStarterKit2/Materials/branch02.mat
+  artifactKey: Guid(a907919643f983d49835ca9a994e37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/branch02.mat using Guid(a907919643f983d49835ca9a994e37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3574627c41e7def469d249dc868e95') in 0.172491 seconds
+  Import took 0.176927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/NatureStarterKit2/Materials/bush01.mat
+  artifactKey: Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/bush01.mat using Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21299bb2b2f64c1d6d7cccdd45647c38') in 0.022773 seconds
+  Import took 0.031525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/NatureStarterKit2/Materials/bark02.mat
+  artifactKey: Guid(aa9fcb8764ab3324aa575a948d139c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/bark02.mat using Guid(aa9fcb8764ab3324aa575a948d139c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8906fd5a867d6f50912ef70868d010') in 0.017800 seconds
+  Import took 0.024123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/NatureStarterKit2/Materials/bush02.mat
+  artifactKey: Guid(42375d2e1d7b61744887ddc5186b7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/bush02.mat using Guid(42375d2e1d7b61744887ddc5186b7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e46b38b5b0d61d5c190c429ababe3') in 0.025237 seconds
+  Import took 0.032262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/NatureStarterKit2/Materials/branch01.mat
+  artifactKey: Guid(18ff38cc93a44014c90e92f3baa1c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Materials/branch01.mat using Guid(18ff38cc93a44014c90e92f3baa1c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc055ba8498516771e6ad969cf1f9e86') in 0.014254 seconds
+  Import took 0.026300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.719236 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground02ddfc8d7f3483abd.terrainlayer
+  artifactKey: Guid(69ed340cea4e8794580e3b70348bd7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground02ddfc8d7f3483abd.terrainlayer using Guid(69ed340cea4e8794580e3b70348bd7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a41d8edffdafb846c592921ad51712e') in 0.020655 seconds
+  Import took 0.026406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground01793646612c42751.terrainlayer
+  artifactKey: Guid(8106e51824259ca4f97f7730ed33ea52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground01793646612c42751.terrainlayer using Guid(8106e51824259ca4f97f7730ed33ea52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e042611f6e389d876cacd5b3c59034') in 0.027364 seconds
+  Import took 0.032600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381366 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(dfeaeb63d9921aa44a738834a5e84f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(dfeaeb63d9921aa44a738834a5e84f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a57d89857a2c53481095b0717d3d94') in 0.036574 seconds
+  Import took 0.046435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.799466 seconds.
+  path: Assets/NatureStarterKit2
+  artifactKey: Guid(131c10040adf4314fa7018da2d1ca197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2 using Guid(131c10040adf4314fa7018da2d1ca197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7f5c7973d6c02a7e55025674955fb2') in 0.013347 seconds
+  Import took 0.019083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.818047 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
+  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a501a0aad3e66ad9e7c34f5170d3f807') in 0.039417 seconds
+  Import took 0.050692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+  artifactKey: Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat using Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbac67ba953ddb6e65002cb245bfe76') in 0.028299 seconds
+  Import took 0.034227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat
+  artifactKey: Guid(06893cec523208643a91b7a393737700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat using Guid(06893cec523208643a91b7a393737700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1231df094e6f62213e152574de9e0227') in 0.515944 seconds
+  Import took 0.526628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat
+  artifactKey: Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat using Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c149e7693cf45c1f4be1d95fa4790dc') in 0.405291 seconds
+  Import took 0.410405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat
+  artifactKey: Guid(215977489d11178d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat using Guid(215977489d11178d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e616a25f4649638ee4512254ac3d8cb') in 0.084788 seconds
+  Import took 0.089488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat
+  artifactKey: Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat using Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb98fad63ac03942f620762292459526') in 0.191883 seconds
+  Import took 0.196756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828738 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat
+  artifactKey: Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat using Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c99b3eb5298984e343c4bfa829a0a0f') in 0.146707 seconds
+  Import took 0.152180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat
+  artifactKey: Guid(5d69df9d9d11e49d110086ba44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat using Guid(5d69df9d9d11e49d110086ba44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b07f5a6976e07cc20fc398611c4067') in 0.023258 seconds
+  Import took 0.029423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.933939 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/LightProjector.mat
+  artifactKey: Guid(c8c80c5b03f5c7e40b07eb2170e667e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/LightProjector.mat using Guid(c8c80c5b03f5c7e40b07eb2170e667e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4631cc20713363e4dc5f80c815993560') in 0.034476 seconds
+  Import took 0.042964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580193 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat
+  artifactKey: Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat using Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e8c55ce92bce07c9e264bfc15527c') in 0.017625 seconds
+  Import took 0.023848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/GridProjector.mat
+  artifactKey: Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/GridProjector.mat using Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4238356f217078c564d1251f7c66c59') in 0.022659 seconds
+  Import took 0.028355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099633 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat
+  artifactKey: Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat using Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf84d6a9f126af8d9c8d372363e8fdc') in 0.064505 seconds
+  Import took 0.070831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004378 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat
+  artifactKey: Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat using Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf84d6a9f126af8d9c8d372363e8fdc') in 0.026031 seconds
+  Import took 0.034531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.559811 seconds.
+  path: Assets/Material/pelota.mat
+  artifactKey: Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/pelota.mat using Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff8fc94d4ebc9154981ddda5691dc1e') in 0.027603 seconds
+  Import took 0.033080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.368168 seconds.
+  path: Assets/Material/pelota.mat
+  artifactKey: Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/pelota.mat using Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961d1859065895ff87e023d380a8b36c') in 0.022311 seconds
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.960409 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f8293fb01740ef2478b286c9cafbf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f8293fb01740ef2478b286c9cafbf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e0a7667d313f2f2fe241b71efe0f74') in 0.108050 seconds
+  Import took 0.118827 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
