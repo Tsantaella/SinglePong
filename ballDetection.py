@@ -40,13 +40,13 @@ def detectBall(imagen):
     # Tenemos que comprobar como de grande detecta la pelota a distintas distancias
     if(area > 10):
         #Con el centroide, calculamos con la formula el centro
-        x = int(moments['m10']/moments['m00'])
-        y = int(moments['m01']/moments['m00'])
+        x = float(moments['m10']/moments['m00'])
+        y = float(moments['m01']/moments['m00'])
 
         #Mostramos sus coordenadas respecto al eje           
         #print ("Coordenadas, Area: ", (x-w/2),(-(y-h/2)),float(area))
-        x = str(x-w/2)
-        y = str(-(y/h/2))
+        x = str("%.2f" %(x-w/2))
+        y = str("%.2f" %(-(y-h/2)))
         return (x,y)
         #Rectangulo blanco en medio del objeto
         #cv2.rectangle(imagen, (x-5, y-5), (x+5, y+5),(255,255,255), 18)
