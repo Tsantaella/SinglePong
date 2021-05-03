@@ -18,11 +18,13 @@ public class EnviaPython : MonoBehaviour
 {
     SMsg socket = new SMsg();
 
-    [SerializeField] float time = 5.0f;
+    [SerializeField] int FPS = 1;
+    float time = 0;
     float timer;
     // Start is called before the first frame update
     void Start()
     {
+        time = 1/FPS;
         timer = time;
     }
 
@@ -46,6 +48,14 @@ public class EnviaPython : MonoBehaviour
 
 public class SMsg
 {
+    // private Socket activa(string server)
+    // {
+    //     Socket soc = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+    //     System.Net.IPAddress ipAdd = System.Net.IPAddress.Parse(server);
+    //     System.Net.IPEndPoint remoteEP = new IPEndPoint(ipAdd, 65430);
+    //     soc.Bind(remoteEP);  
+    //     return soc;
+    // }
     private Socket connecta(string server)
     {
         Socket soc = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -61,25 +71,35 @@ public class SMsg
         soc.Send(msg);
     }
 
-    private string rep(Socket soc)
+    private string rep(Socket listener)
     {
-        byte[] b = new byte[786432];
-        int k = soc.Receive(b);
-        string recv = Encoding.ASCII.GetString(b,0,k); 
+        // listener.Listen(5);
+        // Socket handler = listener.Accept(); 
+        string data = null;  
+        byte[] bytes = null;  
 
-        return recv;
+        bytes = new byte[1024];  
+        int bytesRec = listener.Receive(bytes);  
+        data += Encoding.ASCII.GetString(bytes, 0, bytesRec);
+
+        return data;
     }
 
     public void Main(byte[] msg)
     {
         Socket s = connecta("127.0.0.1");
-        Debug.Log("socket obert");
+        //Debug.Log("socket obert");
         envia(s, msg);
-        Debug.Log("missatge enviat");
-        //string answ = rep(s);
-        //Debug.Log(answ);
+        //Debug.Log("missatge enviat");
+        //s.Close();
+        //Debug.Log("socket tancat");
+
+        //s = activa("127.0.0.1");
+        //Debug.Log("socket obert");
+        string answ = rep(s);
+        Debug.Log(answ);
         s.Close();
-        Debug.Log("socket tancat");
+        //Debug.Log("socket tancat");
     }
 }
 
@@ -89,7 +109,7 @@ public class Cam : MonoBehaviour {
  
     public byte[] Captura()
     {
-        Debug.Log("pre cam trobada");
+        //Debug.Log("pre cam trobada");
 
         Camera cam = GameObject.Find("RobotCamera").GetComponent<Camera>();
 
