@@ -188,8 +188,3 @@ This project has been inspired by the following Internet projects:
 
 https://www.youtube.com/watch?v=AxSyXMbV3Yg
 
-
-
-
-### 
-
