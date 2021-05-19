@@ -1,13 +1,5 @@
 ﻿
-
-| |
-| :- |
-
-| |
-| -: |
-| |
-||
-| |
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png)
 
 ||
 | :- |
@@ -23,29 +15,28 @@ Kilian Niubó Vinuesa - 1497932Table of Contents
 
 
 
-[Project description](#_heading=h.gjdgxs)                                                                                                                       1
+[Project description](#_heading=h.gjdgxs)                                                                                                                       
 
-[Electronic components](#_heading=h.30j0zll)                                                                                                              1
+[Electronic components](#_heading=h.30j0zll)                                                                                                              
 
-[Hardware Scheme](#_heading=h.1fob9te)                                                                                                                        2
+[Hardware Scheme](#_heading=h.1fob9te)                                                                                                                        
 
-[Software Architecture](#_heading=h.ik8oj8cnfs6x)                                                                                                                 3
+[Software Architecture](#_heading=h.ik8oj8cnfs6x)                                                                                                                 
 
-[Ball Detection:](#_heading=h.l3i9qhyv37j1)                                                                                                                               3
+[Ball Detection:](#_heading=h.l3i9qhyv37j1)                                                                                                                               
 
-[Amazing contributions](#_heading=h.aulg56cwhsgi)                                                                                                               5
+[Amazing contributions](#_heading=h.aulg56cwhsgi)                                                                                                               
 
-[Extra components and 3D pieces](#_heading=h.5av4rg53x0wv)                                                                                             6
+[Extra components and 3D pieces](#_heading=h.5av4rg53x0wv)                                                                                             
 
-[Simulation Strategy](#_heading=h.liyqkua13e)                                                                                                                     9
+[Simulation Strategy](#_heading=h.liyqkua13e)                                                                                                                     
 
-[Foreseen risks and contingency plan](#_heading=h.2et92p0)                                                                                     9
+[Foreseen risks and contingency plan](#_heading=h.2et92p0)                                                                                     
 
-References                                                                                                                                    11
+[References](References)                                                                                                                                    
 
 
 
-Single Pong
 # Project description
 *SinglePong permite jugar al ping pong sin necesidad de una pareja.*
 \*
@@ -76,21 +67,16 @@ Esta es la lista de componentes:
 ●    ***Stepper Controller Pack 10u***
 # Hardware Scheme
 
+![ArduinoModel](https://github.com/Tsantaella/SinglePong/blob/main/img/image003.png)
 
 El esquema básico con el que manejaremos los motores será el de la figura de arriba.
-
+![RaspberryModel](https://github.com/Tsantaella/SinglePong/blob/main/img/image005.png)
 Dispondremos de una Raspberry a la que irá conectada la cámara. Con los datos recogidos por esta se realizarán los cálculos necesarios y se mandaran a los motores que también estarán conectados a la Raspberry. 
-\*
 
-\*
-
-\*
-
-\*
 
 # Software Architecture
 
-
+![SoftwareImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image007.png)
 
 Es un esquema bastante sencillo de como funcionará la parte software del robot. En este entendemos que a partir de varios frames donde se vaya detectando la pelota podremos saber la trayectoria que esta sigue, calcular donde impactará y mover el robot a la posición.
 # Ball Detection:
@@ -106,7 +92,7 @@ El funcionamiento es el siguiente:
 1. Finalmente dibujamos unos ejes que nos dividan la imagen de la cámara y otros que nos indiquen la posición de la pelota, obteniendo así sus coordenadas.
 
 
-
+![Square](https://github.com/Tsantaella/SinglePong/blob/main/img/image009.png)
 
 
 Pese a que actualmente este método de detección de la pelota nos parece suficiente para realizar las funcionalidades previstas inicialmente, se pretende, en caso de disponer del tiempo suficiente, realizar un análogo mediante inteligencia artificial. Si logramos su desarrollo se compararan las dos alternativas por tal de quedarnos con la más rápida, ya que, por una parte, creemos que la sencillez de la primera opción puede darnos resultados más veloces con el fin de mover antes la pala hacia la dirección deseada, pero por otra, con la segunda, esperamos obtener resultados más precisos, adquiriendo así mayor precisión en los movimientos y mayor capacidad de detectar comportamientos de la pelota como efectos.
@@ -124,73 +110,33 @@ Hemos encontrado que existen distintos tipos de robots que ya realizan una funci
 Nuestro proyecto, debido a su sencilla estructura, facilita su transporte y su almacenaje, lo que lo haría idóneo para un uso quotidiano.  Adicionalmente, sus características permiten una fácil instalación o desmontaje, de modo que se pueda volver a disponer de la mesa despejada en caso de que encontremos alguna pareja o montarlo en caso de que no la tengamos 
 
 Si se llegan a cumplir todos los requisitos establecidos al inicio, creemos que nuestro proyecto aspira a la mayor nota alcanzable, ya que se tratará de un robot funcional, sencillo y optimizado, que requerirá de dispositivos ópticos para el seguimiento de la pelota, cálculos para activar los motores en función de ello y partes móviles para impactar con la pelota, aplicando así parte de las competencias en materia de robótica adquiridas en la asignatura.
-\*
-
-# 
-
-
-
-
-
 
 
 
 
 # Extra components and 3D pieces
 ●       ***Mesa de ping pong:***  Nuestro robot estará sujeto en el borde de la mesa de ping-pong donde jugará el usuario.
-\*
 
-\*
-
-\*
-
-\*
-
-\*
+![MesaPingPong](https://github.com/Tsantaella/SinglePong/blob/main/img/image011.png)
 
 
 ●       ***Estructura del robot:***  Estructura global del robot con los railes de movimiento y las barras de fijación las cuales van fijadas a la tabla.
 
-\* 
-\*
-
-\*
-
-\*
-
-\*
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image013.png)
 
 
 ●       ***Sistema movimiento vertical:*** parte encargada del movimiento vertical del robot, los motores (amarillo) se encargan de subir y bajar la pala mediante los railes verticales
 
-\* 
-\*
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image015.png)
 
 
 ●       ***Zona central:*** parte central del robot, donde se sitúa la pala con la que devolvemos la bola y la cámara con la que la detectamos.
 
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image017.png)
+
 ●       ***Sistema movimiento horizontal:** sistema situado junto la pala y la cámara el cual mediante un motor se desplaza en el eje horizontal.*
-\*
 
-\*
-
-\*
-
-\*
-
-\***
-
-\*
-
-\*
-
-\*
-
-\*
-
-\*
-
-\*
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image019.png)
 
 # Simulation Strategy
 Para realizar la simulación de nuestro robot, hemos usado el motor gráfico de Unity, ya que nos permite simular correctamente las físicas necesarias para comprobar que el robot funciona como es debido.
@@ -216,10 +162,12 @@ Los controles son simples y parecidos a los de cualquier juego convencional de d
 # Results
 Ya hemos podido realizar las primeras pruebas con la primera versión del robot. Hemos logrado realizar el primer objetivo planteado: Detectar correctamente la bola y mover la pala hacia esta. La pala solo sirve para que la pelota rebote, aún no golpea con efecto a esta para devolverla de manera que el robot pueda hacer el papel de oponente.
 
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image021.png)
+
 Destacar que en este punto del proyecto el robot aún no es capaz de dar impulso a la pelota para devolverla con más energía.
 
 # Foreseen risks and contingency plan
-\* 
+
 
 |**Risk #**|**Description**|**Probability**<br>(High/Medium/Low)|**Impact**<br>(High/Medium/Low**)**|**Contingency plan**|
 | :- | :- | :- | :- | :- |
@@ -228,7 +176,7 @@ Destacar que en este punto del proyecto el robot aún no es capaz de dar impulso
 |3|Falta de fuerza de agarre del soporte a la mesa|Baja|Alto|En caso de precisarse se usarán soportes extra. |
 
 
-References
+# References
 
 This project has been inspired by the following Internet projects:
 
