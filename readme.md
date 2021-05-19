@@ -1,5 +1,5 @@
-﻿
-<div style=text-align:center>![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png)
+﻿![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png)
+<div style=text-align:center>
 
 ||
 | :-: |
