@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 12163 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 12163 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/ger-m/UnityProjects/pong
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1752
+1167
 Successfully changed project path to: C:/Users/ger-m/UnityProjects/pong
 C:/Users/ger-m/UnityProjects/pong
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -30,439 +30,1477 @@ Direct3D:
     Renderer: NVIDIA GeForce 940MX (ID=0x134d)
     Vendor:   
     VRAM:     2010 MB
-    Driver:   27.21.14.6611
+    Driver:   27.21.14.6627
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002210 seconds.
+Registered in 0.002973 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.02 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.437 seconds
+- Completed reload, in  1.641 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001884 seconds.
+Registered in 0.001677 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.89 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
+- Completed reload, in  1.312 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.1 MB.
-System memory in use after: 141.9 MB.
+Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 149.7 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2961.
-Total: 4.320500 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.185800 ms MarkObjects: 3.013100 ms  DeleteObjects: 0.726100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/NatureStarterKit2/Materials/skybox.mat
-  artifactKey: Guid(39cace2863926444a9a78daa8ae26413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/skybox.mat using Guid(39cace2863926444a9a78daa8ae26413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4733e5963cd397ca4e0cc2e4867fa1de') in 0.200603 seconds
-  Import took 0.209288 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2971.
+Total: 3.198500 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.177700 ms MarkObjects: 2.115700 ms  DeleteObjects: 0.518000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/NatureStarterKit2/Materials/sky.mat
-  artifactKey: Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/sky.mat using Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba7c839584eedb6dc868ed45a495e66') in 0.026342 seconds
-  Import took 0.033520 seconds .
+  path: Assets/objects/tinker.obj
+  artifactKey: Guid(39767ff9eea69924996257ac65789e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objects/tinker.obj using Guid(39767ff9eea69924996257ac65789e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e527ccb4f996994c04a52f331c10cea') in 0.311135 seconds
+  Import took 0.316046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.844333 seconds.
-  path: Assets/NatureStarterKit2/Materials/sky.mat
-  artifactKey: Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/sky.mat using Guid(7105c6e31fe1afc4b804e755b0561048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba7c839584eedb6dc868ed45a495e66') in 0.026616 seconds
-  Import took 0.034517 seconds .
+  Time since last request: 332.802747 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1341ce7e7154fa7c8dd3d381c32fa9d8') in 0.051627 seconds
+  Import took 0.059317 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.879914 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush
-  artifactKey: Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush using Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3464260e35b0d10454cba894dc4a9302') in 0.036652 seconds
-  Import took 0.047603 seconds .
+  Time since last request: 152.274129 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf86588d37b9abc9bfb2df3ba897ca0') in 0.027189 seconds
+  Import took 0.035507 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.022704 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush
-  artifactKey: Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/NewBrush 1.brush using Guid(d4375897654a6594fa077536909c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3464260e35b0d10454cba894dc4a9302') in 0.023069 seconds
-  Import took 0.031635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.442996 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush01.prefab
-  artifactKey: Guid(d638ef2ca2fe20c4c9c08e125692d3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush01.prefab using Guid(d638ef2ca2fe20c4c9c08e125692d3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6f9eef80077fb27772f3e23bb56a74') in 0.098084 seconds
-  Import took 0.103471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/NatureStarterKit2/Nature/tree02.prefab
-  artifactKey: Guid(c63ea781a273235439e583799176c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/tree02.prefab using Guid(c63ea781a273235439e583799176c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a796650d116f32cae68368d7667a33') in 0.050155 seconds
-  Import took 0.055793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/NatureStarterKit2/Nature/tree03.prefab
-  artifactKey: Guid(4e2dd32c733005a44b50004d673dc653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/tree03.prefab using Guid(4e2dd32c733005a44b50004d673dc653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a61c7ed0a56d42bff49ddf8f8787a') in 0.048732 seconds
-  Import took 0.054458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush03.prefab
-  artifactKey: Guid(9c74caa742791864f9c678287121e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush03.prefab using Guid(9c74caa742791864f9c678287121e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5183299be85e5d76828d7cec55cedc09') in 0.051972 seconds
-  Import took 0.056731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush05.prefab
-  artifactKey: Guid(bb660abd3b29d9f44866fd79795dbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush05.prefab using Guid(bb660abd3b29d9f44866fd79795dbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddb2d1c43905ad9b9348a9ec4e3c4c4') in 0.048557 seconds
-  Import took 0.053251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush06.prefab
-  artifactKey: Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush06.prefab using Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac254753089641145327d8fb1407ded0') in 0.045867 seconds
-  Import took 0.052154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush02.prefab
-  artifactKey: Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush02.prefab using Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb63be7670d7686415e8abe23045a3f') in 0.054630 seconds
-  Import took 0.060535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/NatureStarterKit2/Nature/tree04.prefab
-  artifactKey: Guid(aae542b8a65f39b49b008fa689ce9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/tree04.prefab using Guid(aae542b8a65f39b49b008fa689ce9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3235536d311b4732cf3ce0a66f1ece97') in 0.044270 seconds
-  Import took 0.049782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/NatureStarterKit2/Nature/tree01.prefab
-  artifactKey: Guid(393b236c42954a640b513d46de90ac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/tree01.prefab using Guid(393b236c42954a640b513d46de90ac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03c3be274c1b9451734afc215fd5f2') in 0.048709 seconds
-  Import took 0.053843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush04.prefab
-  artifactKey: Guid(d15b44addf30da74f946086ec0aa993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush04.prefab using Guid(d15b44addf30da74f946086ec0aa993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92e46f7e34c869d4b2e8d51a1b38905') in 0.049823 seconds
-  Import took 0.055184 seconds .
+  Time since last request: 46.108736 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175e7ed619bc6b82e50cf34a78a533d0') in 0.069060 seconds
+  Import took 0.225496 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001505 seconds.
+Registered in 0.002075 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
+- Completed reload, in  2.305 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3017.
+Total: 48.377300 ms (FindLiveObjects: 0.494900 ms CreateObjectMapping: 0.898100 ms MarkObjects: 40.773100 ms  DeleteObjects: 6.208900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.611763 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51134194f843dbef9dfe4ae7990ece1') in 0.076331 seconds
+  Import took 0.091747 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.6 MB.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 140.7 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3013.
-Total: 3.566400 ms (FindLiveObjects: 0.593200 ms CreateObjectMapping: 0.154200 ms MarkObjects: 2.360300 ms  DeleteObjects: 0.456700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3020.
+Total: 6.047700 ms (FindLiveObjects: 1.492700 ms CreateObjectMapping: 0.273200 ms MarkObjects: 3.645900 ms  DeleteObjects: 0.633800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.441 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 3.885400 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.252700 ms MarkObjects: 2.643600 ms  DeleteObjects: 0.553800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 810.121679 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects
-  artifactKey: Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects using Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616037ba17d7530e3820f8d0c3715dbd') in 0.018458 seconds
-  Import took 0.026496 seconds .
+  Time since last request: 135.336511 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8455191f453fef1809ed3981eb890b69') in 0.017319 seconds
+  Import took 0.036014 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.898 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3026.
+Total: 30.009100 ms (FindLiveObjects: 0.588600 ms CreateObjectMapping: 1.374200 ms MarkObjects: 26.765200 ms  DeleteObjects: 1.279500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 7.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 4.240300 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.130200 ms MarkObjects: 2.318400 ms  DeleteObjects: 1.500500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.408 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3032.
+Total: 113.858300 ms (FindLiveObjects: 11.877200 ms CreateObjectMapping: 38.354400 ms MarkObjects: 61.372700 ms  DeleteObjects: 2.249800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001547 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects
-  artifactKey: Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects using Guid(115d1f9d9bd29064ab981e57c8fc8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616037ba17d7530e3820f8d0c3715dbd') in 0.004054 seconds
-  Import took 0.011760 seconds .
+  Time since last request: 233.293017 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acb305c3baa329364f079e8e4fb9e9b') in 0.036922 seconds
+  Import took 0.045705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 344.915283 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_ground012023054508611406.terrainlayer
-  artifactKey: Guid(00decc5b83569cc428a23f39c2f3ff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_ground012023054508611406.terrainlayer using Guid(00decc5b83569cc428a23f39c2f3ff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4abea466353bff868ad98ad0b7b7f9') in 0.068780 seconds
-  Import took 0.075043 seconds .
+  Time since last request: 2.593947 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acb305c3baa329364f079e8e4fb9e9b') in 0.029384 seconds
+  Import took 0.073244 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.072 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3035.
+Total: 70.728700 ms (FindLiveObjects: 0.503200 ms CreateObjectMapping: 1.595900 ms MarkObjects: 4.087300 ms  DeleteObjects: 64.540300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3038.
+Total: 4.098600 ms (FindLiveObjects: 0.481600 ms CreateObjectMapping: 0.260000 ms MarkObjects: 2.493000 ms  DeleteObjects: 0.862300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3041.
+Total: 3.714700 ms (FindLiveObjects: 0.473300 ms CreateObjectMapping: 0.211300 ms MarkObjects: 2.546400 ms  DeleteObjects: 0.481800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.811411 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_ground038f9406e577a89d2d.terrainlayer
-  artifactKey: Guid(edb541d80146c354eb5f8c13376c3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_ground038f9406e577a89d2d.terrainlayer using Guid(edb541d80146c354eb5f8c13376c3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa52f465b55459486378782d4e9eef90') in 0.022923 seconds
-  Import took 0.029027 seconds .
+  Time since last request: 163.903783 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3137d97e6b0de1e5c25c65a35c52163') in 0.010320 seconds
+  Import took 0.021724 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3044.
+Total: 6.769500 ms (FindLiveObjects: 0.682600 ms CreateObjectMapping: 0.373800 ms MarkObjects: 4.965300 ms  DeleteObjects: 0.742400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.403 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3047.
+Total: 8.197500 ms (FindLiveObjects: 0.719200 ms CreateObjectMapping: 0.252900 ms MarkObjects: 4.364400 ms  DeleteObjects: 2.855400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.056053 seconds.
-  path: Assets/NatureStarterKit2/Animations/cameraanim.anim
-  artifactKey: Guid(7789fd8934a705745a05db5f410316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Animations/cameraanim.anim using Guid(7789fd8934a705745a05db5f410316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db5684699bc0797026ab4d82d9d15d2') in 0.114128 seconds
-  Import took 0.119906 seconds .
+  Time since last request: 122.231852 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77becaf13cf69b616019e17dda9b891a') in 0.008327 seconds
+  Import took 0.016798 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.704931 seconds.
-  path: Assets/NatureStarterKit2/Animations/Main Camera.controller
-  artifactKey: Guid(85adcab9e891c3d4ea49d5de4b88ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Animations/Main Camera.controller using Guid(85adcab9e891c3d4ea49d5de4b88ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1508463ac5f68acf6c169cb6ee497139') in 0.096809 seconds
-  Import took 0.102318 seconds .
+  Time since last request: 8.559503 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e181c9e24188649eb3213ca365cd5b1') in 0.012810 seconds
+  Import took 0.035018 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.867294 seconds.
-  path: Assets/NatureStarterKit2/Materials/bark01.mat
-  artifactKey: Guid(429dd90a38598a6439cac85af03f10df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/bark01.mat using Guid(429dd90a38598a6439cac85af03f10df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fba515f24731ec5aa9e2863f365b1d') in 0.257386 seconds
-  Import took 0.263853 seconds .
+  Time since last request: 101.398253 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89542e7771a3a4407dea980d292a4b8a') in 0.014449 seconds
+  Import took 0.040682 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/NatureStarterKit2/Materials/branch02.mat
-  artifactKey: Guid(a907919643f983d49835ca9a994e37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/branch02.mat using Guid(a907919643f983d49835ca9a994e37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3574627c41e7def469d249dc868e95') in 0.172491 seconds
-  Import took 0.176927 seconds .
+  Time since last request: 0.001414 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89542e7771a3a4407dea980d292a4b8a') in 0.019097 seconds
+  Import took 0.113292 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.726 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3050.
+Total: 5.262400 ms (FindLiveObjects: 0.465900 ms CreateObjectMapping: 0.260400 ms MarkObjects: 3.800600 ms  DeleteObjects: 0.733600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/NatureStarterKit2/Materials/bush01.mat
-  artifactKey: Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/bush01.mat using Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21299bb2b2f64c1d6d7cccdd45647c38') in 0.022773 seconds
-  Import took 0.031525 seconds .
+  Time since last request: 145.104376 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a488b9a3656d8e2f06ff8989214a57d') in 0.009034 seconds
+  Import took 0.016917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/NatureStarterKit2/Materials/bark02.mat
-  artifactKey: Guid(aa9fcb8764ab3324aa575a948d139c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/bark02.mat using Guid(aa9fcb8764ab3324aa575a948d139c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8906fd5a867d6f50912ef70868d010') in 0.017800 seconds
-  Import took 0.024123 seconds .
+  Time since last request: 2.339230 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a488b9a3656d8e2f06ff8989214a57d') in 0.010362 seconds
+  Import took 0.019297 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.116 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3053.
+Total: 5.801600 ms (FindLiveObjects: 0.537900 ms CreateObjectMapping: 0.741000 ms MarkObjects: 3.331000 ms  DeleteObjects: 1.189700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/NatureStarterKit2/Materials/bush02.mat
-  artifactKey: Guid(42375d2e1d7b61744887ddc5186b7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/bush02.mat using Guid(42375d2e1d7b61744887ddc5186b7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e46b38b5b0d61d5c190c429ababe3') in 0.025237 seconds
-  Import took 0.032262 seconds .
+  Time since last request: 45.229581 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef416b73fc7033dd1fe52baa57b3764b') in 0.016301 seconds
+  Import took 0.041603 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.244 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3056.
+Total: 18.671400 ms (FindLiveObjects: 0.782900 ms CreateObjectMapping: 0.260100 ms MarkObjects: 5.868200 ms  DeleteObjects: 11.758300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/NatureStarterKit2/Materials/branch01.mat
-  artifactKey: Guid(18ff38cc93a44014c90e92f3baa1c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Materials/branch01.mat using Guid(18ff38cc93a44014c90e92f3baa1c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc055ba8498516771e6ad969cf1f9e86') in 0.014254 seconds
-  Import took 0.026300 seconds .
+  Time since last request: 224.078016 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0094443edcde92c18f461f5f1ee40eb4') in 0.020205 seconds
+  Import took 0.029834 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.472 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3059.
+Total: 130.134300 ms (FindLiveObjects: 31.057100 ms CreateObjectMapping: 0.600600 ms MarkObjects: 95.957500 ms  DeleteObjects: 2.516600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.719236 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_ground02ddfc8d7f3483abd.terrainlayer
-  artifactKey: Guid(69ed340cea4e8794580e3b70348bd7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_ground02ddfc8d7f3483abd.terrainlayer using Guid(69ed340cea4e8794580e3b70348bd7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a41d8edffdafb846c592921ad51712e') in 0.020655 seconds
-  Import took 0.026406 seconds .
+  Time since last request: 51.283192 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2727f14793cea67288f6e678501402') in 0.436239 seconds
+  Import took 0.813627 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.955 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3062.
+Total: 19.848300 ms (FindLiveObjects: 1.460700 ms CreateObjectMapping: 0.506100 ms MarkObjects: 15.344600 ms  DeleteObjects: 2.534800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_ground01793646612c42751.terrainlayer
-  artifactKey: Guid(8106e51824259ca4f97f7730ed33ea52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_ground01793646612c42751.terrainlayer using Guid(8106e51824259ca4f97f7730ed33ea52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e042611f6e389d876cacd5b3c59034') in 0.027364 seconds
-  Import took 0.032600 seconds .
+  Time since last request: 53.573287 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdf803ad7116e207197437e2ff8a58f') in 0.015784 seconds
+  Import took 0.027357 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 21.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.059 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3065.
+Total: 43.154500 ms (FindLiveObjects: 2.523000 ms CreateObjectMapping: 0.895700 ms MarkObjects: 6.376800 ms  DeleteObjects: 33.356600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.381366 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(dfeaeb63d9921aa44a738834a5e84f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(dfeaeb63d9921aa44a738834a5e84f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a57d89857a2c53481095b0717d3d94') in 0.036574 seconds
-  Import took 0.046435 seconds .
+  Time since last request: 101.377162 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8815fccb83504d78aa70d85fa2b9aee') in 0.048677 seconds
+  Import took 0.166888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.163 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3068.
+Total: 6.407600 ms (FindLiveObjects: 0.551700 ms CreateObjectMapping: 0.552000 ms MarkObjects: 4.749500 ms  DeleteObjects: 0.552700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.799466 seconds.
-  path: Assets/NatureStarterKit2
-  artifactKey: Guid(131c10040adf4314fa7018da2d1ca197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2 using Guid(131c10040adf4314fa7018da2d1ca197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7f5c7973d6c02a7e55025674955fb2') in 0.013347 seconds
-  Import took 0.019083 seconds .
+  Time since last request: 23.281577 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab8b0b991955a28c6bde838314cc4d2') in 0.022894 seconds
+  Import took 0.062829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.818047 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
-  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a501a0aad3e66ad9e7c34f5170d3f807') in 0.039417 seconds
-  Import took 0.050692 seconds .
+  Time since last request: 0.024075 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab8b0b991955a28c6bde838314cc4d2') in 0.005996 seconds
+  Import took 0.058347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.264 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3071.
+Total: 7.460500 ms (FindLiveObjects: 0.824800 ms CreateObjectMapping: 0.341700 ms MarkObjects: 5.671100 ms  DeleteObjects: 0.621100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
-  artifactKey: Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat using Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbac67ba953ddb6e65002cb245bfe76') in 0.028299 seconds
-  Import took 0.034227 seconds .
+  Time since last request: 47.489046 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3f1cf36d34e8d0d08205281f2b6b5') in 0.012600 seconds
+  Import took 0.022672 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat
-  artifactKey: Guid(06893cec523208643a91b7a393737700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat using Guid(06893cec523208643a91b7a393737700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1231df094e6f62213e152574de9e0227') in 0.515944 seconds
-  Import took 0.526628 seconds .
+  Time since last request: 79.232149 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bae18a16332fa13d6a8ff9a1e3465f') in 0.061871 seconds
+  Import took 0.128722 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.451 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3074.
+Total: 7.033400 ms (FindLiveObjects: 0.396700 ms CreateObjectMapping: 0.237300 ms MarkObjects: 5.669000 ms  DeleteObjects: 0.728300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat
-  artifactKey: Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat using Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c149e7693cf45c1f4be1d95fa4790dc') in 0.405291 seconds
-  Import took 0.410405 seconds .
+  Time since last request: 74.875861 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0253afc0fa9effd81059f5681fa791') in 0.010973 seconds
+  Import took 0.023056 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.985 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3077.
+Total: 3.841700 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.237600 ms MarkObjects: 2.699000 ms  DeleteObjects: 0.477300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3080.
+Total: 4.101200 ms (FindLiveObjects: 0.830700 ms CreateObjectMapping: 0.226300 ms MarkObjects: 2.514800 ms  DeleteObjects: 0.527900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat
-  artifactKey: Guid(215977489d11178d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat using Guid(215977489d11178d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e616a25f4649638ee4512254ac3d8cb') in 0.084788 seconds
-  Import took 0.089488 seconds .
+  Time since last request: 155.259210 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51be2c02e29434d86ae4f6f56ba1caaf') in 0.010078 seconds
+  Import took 0.020006 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3083.
+Total: 4.891600 ms (FindLiveObjects: 0.712900 ms CreateObjectMapping: 0.302100 ms MarkObjects: 2.979700 ms  DeleteObjects: 0.894700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat
-  artifactKey: Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat using Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb98fad63ac03942f620762292459526') in 0.191883 seconds
-  Import took 0.196756 seconds .
+  Time since last request: 112.620495 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205c6f2de8d3e2b904c6cbac7bb32f64') in 0.007237 seconds
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.727 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 6.219300 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.363900 ms MarkObjects: 3.812200 ms  DeleteObjects: 1.684000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.828738 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat
-  artifactKey: Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat using Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c99b3eb5298984e343c4bfa829a0a0f') in 0.146707 seconds
-  Import took 0.152180 seconds .
+  Time since last request: 376.226344 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3956210d9b4fab48c98abd4ca1b4326') in 0.015196 seconds
+  Import took 0.029951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 3.765500 ms (FindLiveObjects: 0.473100 ms CreateObjectMapping: 0.257600 ms MarkObjects: 2.432300 ms  DeleteObjects: 0.601100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat
-  artifactKey: Guid(5d69df9d9d11e49d110086ba44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat using Guid(5d69df9d9d11e49d110086ba44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b07f5a6976e07cc20fc398611c4067') in 0.023258 seconds
-  Import took 0.029423 seconds .
+  Time since last request: 105.950791 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de28f037a5f5570c6b9ca95965752301') in 0.006196 seconds
+  Import took 0.013432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.543 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3092.
+Total: 4.984800 ms (FindLiveObjects: 0.509100 ms CreateObjectMapping: 0.227300 ms MarkObjects: 3.581900 ms  DeleteObjects: 0.663900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.933939 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/LightProjector.mat
-  artifactKey: Guid(c8c80c5b03f5c7e40b07eb2170e667e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/LightProjector.mat using Guid(c8c80c5b03f5c7e40b07eb2170e667e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4631cc20713363e4dc5f80c815993560') in 0.034476 seconds
-  Import took 0.042964 seconds .
+  Time since last request: 115.814117 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462d905b54e157b17388cabad1bc3503') in 0.014042 seconds
+  Import took 0.022003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.580193 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat
-  artifactKey: Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat using Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e8c55ce92bce07c9e264bfc15527c') in 0.017625 seconds
-  Import took 0.023848 seconds .
+  Time since last request: 1.853193 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462d905b54e157b17388cabad1bc3503') in 0.002990 seconds
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.059 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3095.
+Total: 3.959000 ms (FindLiveObjects: 0.516600 ms CreateObjectMapping: 0.240800 ms MarkObjects: 2.397200 ms  DeleteObjects: 0.802500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002451 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3098.
+Total: 4.163500 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.180500 ms MarkObjects: 3.066500 ms  DeleteObjects: 0.479800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/GridProjector.mat
-  artifactKey: Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/GridProjector.mat using Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4238356f217078c564d1251f7c66c59') in 0.022659 seconds
-  Import took 0.028355 seconds .
+  Time since last request: 148.519397 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c25550fd1d1a58e6736578f1fb9b113') in 0.008307 seconds
+  Import took 0.015844 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.099633 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat
-  artifactKey: Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat using Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf84d6a9f126af8d9c8d372363e8fdc') in 0.064505 seconds
-  Import took 0.070831 seconds .
+  Time since last request: 1.836377 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c25550fd1d1a58e6736578f1fb9b113') in 0.004462 seconds
+  Import took 0.010620 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3101.
+Total: 5.946900 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 0.203800 ms MarkObjects: 4.041300 ms  DeleteObjects: 0.977800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3104.
+Total: 3.765900 ms (FindLiveObjects: 0.506800 ms CreateObjectMapping: 0.235800 ms MarkObjects: 2.539400 ms  DeleteObjects: 0.482200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004378 seconds.
-  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat
-  artifactKey: Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat using Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf84d6a9f126af8d9c8d372363e8fdc') in 0.026031 seconds
-  Import took 0.034531 seconds .
+  Time since last request: 278.146872 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df5047e335f51665b8ea80b6f236252') in 0.012291 seconds
+  Import took 0.018116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3107.
+Total: 7.477100 ms (FindLiveObjects: 0.542000 ms CreateObjectMapping: 1.214900 ms MarkObjects: 4.694400 ms  DeleteObjects: 1.023700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.559811 seconds.
-  path: Assets/Material/pelota.mat
-  artifactKey: Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/pelota.mat using Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff8fc94d4ebc9154981ddda5691dc1e') in 0.027603 seconds
-  Import took 0.033080 seconds .
+  Time since last request: 368.519453 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e59b0384fe2044c1f6c6ad16429e46') in 0.017916 seconds
+  Import took 0.025641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 166.368168 seconds.
-  path: Assets/Material/pelota.mat
-  artifactKey: Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/pelota.mat using Guid(4b5344f1793035448ad80937820294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961d1859065895ff87e023d380a8b36c') in 0.022311 seconds
-  Import took 0.033791 seconds .
+  Time since last request: 0.985154 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e59b0384fe2044c1f6c6ad16429e46') in 0.003319 seconds
+  Import took 0.012273 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3110.
+Total: 4.564500 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.170100 ms MarkObjects: 3.431100 ms  DeleteObjects: 0.657500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.960409 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(f8293fb01740ef2478b286c9cafbf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(f8293fb01740ef2478b286c9cafbf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e0a7667d313f2f2fe241b71efe0f74') in 0.108050 seconds
-  Import took 0.118827 seconds .
+  Time since last request: 24.443949 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c671603af7b6b1c116cbc8497dcf504e') in 0.008902 seconds
+  Import took 0.018217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278408 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c671603af7b6b1c116cbc8497dcf504e') in 0.005067 seconds
+  Import took 0.011751 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.050 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3113.
+Total: 5.532100 ms (FindLiveObjects: 1.248300 ms CreateObjectMapping: 0.347000 ms MarkObjects: 2.970100 ms  DeleteObjects: 0.963800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.567947 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c97b0047b5e0b230c403233f84d803') in 0.008131 seconds
+  Import took 0.015370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3116.
+Total: 12.787100 ms (FindLiveObjects: 0.558700 ms CreateObjectMapping: 1.035600 ms MarkObjects: 10.471000 ms  DeleteObjects: 0.719700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.096861 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecab249e08c6c4c92b4e6b7a524182af') in 0.015426 seconds
+  Import took 0.026458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361751 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecab249e08c6c4c92b4e6b7a524182af') in 0.007032 seconds
+  Import took 0.017300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.104 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3119.
+Total: 21.543700 ms (FindLiveObjects: 1.320300 ms CreateObjectMapping: 0.713700 ms MarkObjects: 18.697800 ms  DeleteObjects: 0.810100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.692298 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3933f8bd007797e979fb9f57c75e52') in 0.022594 seconds
+  Import took 0.035460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.740366 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c346b7e0ce7b2d83f4d8f4518211d198') in 0.028951 seconds
+  Import took 0.044618 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.792 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3122.
+Total: 9.824400 ms (FindLiveObjects: 4.400100 ms CreateObjectMapping: 0.658300 ms MarkObjects: 4.106800 ms  DeleteObjects: 0.656500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.876230 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a838ebeaf51db9e125e2525a8f4a0187') in 0.016952 seconds
+  Import took 0.033235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.865968 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a838ebeaf51db9e125e2525a8f4a0187') in 0.004888 seconds
+  Import took 0.018374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3125.
+Total: 10.965300 ms (FindLiveObjects: 0.632500 ms CreateObjectMapping: 6.012600 ms MarkObjects: 3.568100 ms  DeleteObjects: 0.750400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.828106 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66783f47f4bee8020cc525fbfd8c15f7') in 0.010997 seconds
+  Import took 0.021832 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3128.
+Total: 5.063400 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.379800 ms MarkObjects: 3.587900 ms  DeleteObjects: 0.733100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.399894 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2014c5ef3b49be4da1334f9d4d11d4b') in 0.008517 seconds
+  Import took 0.061023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.326458 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2014c5ef3b49be4da1334f9d4d11d4b') in 0.003618 seconds
+  Import took 0.013824 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 9.188100 ms (FindLiveObjects: 0.907100 ms CreateObjectMapping: 0.499800 ms MarkObjects: 6.185300 ms  DeleteObjects: 1.594300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.165146 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953fc473998fbbd48b24bf39e199d0e8') in 0.013146 seconds
+  Import took 0.023792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.359345 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953fc473998fbbd48b24bf39e199d0e8') in 0.004568 seconds
+  Import took 0.011696 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3134.
+Total: 2.979700 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.155700 ms MarkObjects: 2.007000 ms  DeleteObjects: 0.488800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.856323 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3a03f64b6a9960f1cfb46523585f95') in 0.006348 seconds
+  Import took 0.013246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.257374 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3a03f64b6a9960f1cfb46523585f95') in 0.006411 seconds
+  Import took 0.016834 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3137.
+Total: 4.356800 ms (FindLiveObjects: 0.476400 ms CreateObjectMapping: 0.222600 ms MarkObjects: 2.989300 ms  DeleteObjects: 0.666800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.153266 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44829ec00d4dc7a01f1dbb750efc25e9') in 0.006644 seconds
+  Import took 0.014823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904392 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44829ec00d4dc7a01f1dbb750efc25e9') in 0.002856 seconds
+  Import took 0.008005 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3140.
+Total: 3.030200 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.151200 ms MarkObjects: 2.054400 ms  DeleteObjects: 0.496300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.596246 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca16b542b7dc7ab7efd2602028a329b') in 0.006360 seconds
+  Import took 0.011305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.072508 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca16b542b7dc7ab7efd2602028a329b') in 0.002528 seconds
+  Import took 0.008527 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001453 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 4.651700 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.300300 ms MarkObjects: 3.171600 ms  DeleteObjects: 0.704500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.601168 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cb012210bf8fef9966de188d53d2c0') in 0.007158 seconds
+  Import took 0.015512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000771 seconds.
+  path: Assets/scripts/EnviaPython.cs
+  artifactKey: Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/EnviaPython.cs using Guid(2aa9d4c422201a04798d2be7af0216e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cb012210bf8fef9966de188d53d2c0') in 0.002553 seconds
+  Import took 0.007488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3146.
+Total: 8.073700 ms (FindLiveObjects: 0.472500 ms CreateObjectMapping: 0.163100 ms MarkObjects: 6.608100 ms  DeleteObjects: 0.828300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

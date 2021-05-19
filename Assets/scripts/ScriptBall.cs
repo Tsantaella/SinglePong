@@ -6,7 +6,7 @@ public class ScriptBall : MonoBehaviour
 {
     Rigidbody rigidbody;
     public float force = 20f;
-    float time = 0f;
+    public float time = 0.5f;
     float timer;
     // Start is called before the first frame update
     void Start()
@@ -25,13 +25,13 @@ public class ScriptBall : MonoBehaviour
 
     void OnMouseOver()
     {
-        Debug.Log("mouseHover");
+        //Debug.Log("mouseHover");
         if(timer < 0)
         {
             Vector3 vect = new Vector3(0, 0, -10);
 
             rigidbody.AddForce(vect * force);
-            time = 0.5f;
+            //time = 0.5f;
             timer = time;
         }
         // if (Input.GetKeyDown(KeyCode.Space))
