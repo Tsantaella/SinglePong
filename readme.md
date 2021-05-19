@@ -1,15 +1,13 @@
 
 | -------------------------------------------------------------------- |
-|![](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png){width="4.9099475065616796in" height="2.7536198600174977in"} |
-|   ----------------                                                   |
-| -------------------------------------------------------------------- |
-+======================================================================+
-| SINGLE PONG                                                          |
-|                                                                      |
-| Single pong permite jugar al ping pong sin necesidad de una pareja.  |
+|![](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png)
+
+<h1 align="center"> SINGLE PONG      </h1>                                 
+
+Single pong permite jugar al ping pong sin necesidad de una pareja.
 +----------------------------------------------------------------------+
-| PROJECT SPRINT \#2.\                                                 |
-| DATE: 28^th^ April 2021                                              |
+| PROJECT SPRINT \#3.
+| DATE: 28^th^ April 2021                                        
 +----------------------------------------------------------------------+
 
 Arnau Revelles Segalés - 1527873
@@ -18,31 +16,32 @@ Gerard Martínez Espelleta - 1531236
 
 Toni Santaella Trujillo - 1526913
 
-Kilian Niubó Vinuesa - 1497932\
-Table of Contents
+Kilian Niubó Vinuesa - 1497932
 
-[Project description](#project-description) 1
 
-[Electronic components](#electronic-components) 1
+##Table of Contents
 
-[Hardware Scheme](#hardware-scheme) 2
+[Project description](#project-description) 
 
-[Software Architecture](#software-architecture) 3
+[Electronic components](#electronic-components) 
 
-[Ball Detection:](#ball-detection) 3
+[Hardware Scheme](#hardware-scheme) 
 
-[Amazing contributions](#amazing-contributions) 5
+[Software Architecture](#software-architecture) 
 
-[Extra components and 3D pieces](#extra-components-and-3d-pieces) 6
+[Ball Detection:](#ball-detection) 
 
-[Simulation Strategy](#simulation-strategy) 9
+[Amazing contributions](#amazing-contributions) 
+
+[Extra components and 3D pieces](#extra-components-and-3d-pieces) 
+
+[Simulation Strategy](#simulation-strategy)
 
 [Foreseen risks and contingency
-plan](#foreseen-risks-and-contingency-plan) 9
+plan](#foreseen-risks-and-contingency-plan) 
 
-References 11
+[References](#references)
 
-Single Pong
 
 Project description
 ===================
@@ -81,15 +80,11 @@ Esta es la lista de componentes:
 Hardware Scheme
 ===============
 
-![](media/image7.png){width="5.661458880139983in"
-height="2.685563210848644in"}
-
-![](media/image10.png){width="3.486365923009624in"
-height="2.1954057305336834in"}
+![](https://github.com/Tsantaella/SinglePong/blob/main/img/image003.png)
 
 El esquema básico con el que manejaremos los motores será el de la
 figura de arriba.
-
+![](https://github.com/Tsantaella/SinglePong/blob/main/img/image005.png)
 Dispondremos de una Raspberry a la que irá conectada la cámara. Con los
 datos recogidos por esta se realizarán los cálculos necesarios y se
 mandaran a los motores que también estarán conectados a la Raspberry.
