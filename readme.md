@@ -1,9 +1,9 @@
 ﻿
-![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png)
+<div style=text-align:center>![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image001.png)
 
 ||
-| :- |
-|<p>SINGLE PONG</p><p>Single pong permite jugar al ping pong sin necesidad de una pareja.</p><p> </p>|
+| :-: |
+|<h3>SINGLE PONG</h3><p>Single pong permite jugar al ping pong sin necesidad de una pareja.</p><p> </p>|
 |<p>PROJECT SPRINT #2.<br>DATE: 28th April 2021</p><p> </p>|
 Arnau Revelles Segalés - 1527873
 
@@ -11,7 +11,10 @@ Gerard Martínez Espelleta - 1531236
 
 Toni Santaella Trujillo - 1526913
 
-Kilian Niubó Vinuesa - 1497932Table of Contents
+Kilian Niubó Vinuesa - 1497932
+
+<hr>
+<h2>Table of Contents</h2>
 
 
 
@@ -35,7 +38,7 @@ Kilian Niubó Vinuesa - 1497932Table of Contents
 
 [References](References)                                                                                                                                    
 
-
+</div>
 
 # Project description
 *SinglePong permite jugar al ping pong sin necesidad de una pareja.*
