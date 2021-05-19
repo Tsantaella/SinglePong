@@ -30,7 +30,7 @@ def detectBall(imagen):
     #Con la funcion moments buscamos el centroide
     moments = cv2.moments(mask)
     
-    area =int( moments['m00'])
+    area =int(moments['m00'])
     #Descomentar para ver el area por pantalla, iniciamos valores de coordenadas a '0'
     #print(area)
     x=0
@@ -47,7 +47,8 @@ def detectBall(imagen):
         #print ("Coordenadas, Area: ", (x-w/2),(-(y-h/2)),float(area))
         x = str("%.2f" %(x-w/2))
         y = str("%.2f" %(-(y-h/2)))
-        return (x,y)
+        #print(area)
+        return (x,y,area)
         #Rectangulo blanco en medio del objeto
         #cv2.rectangle(imagen, (x-5, y-5), (x+5, y+5),(255,255,255), 18)
         
