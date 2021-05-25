@@ -1,1 +1,0 @@
-Antes de ejecutar la simulación (pong.exe) hay que iniciar el servidor responsable del tratamiento de las imágenes (server.bat)
