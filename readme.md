@@ -111,23 +111,23 @@ The simplicity of the algorithm is due to the need of a fast detection of the po
 ![MesaPingPong](https://github.com/Tsantaella/SinglePong/blob/main/img/image011.png)
 
 
-●       ***Estructura del robot:***  Estructura global del robot con los railes de movimiento y las barras de fijación las cuales van fijadas a la tabla.
+●       ***Robot Structure:***  Global structure of the robot, with it's movement rails and the bars that fix the structure to the table.
 
 ![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image013.png)
 
 
-●       ***Sistema movimiento vertical:*** parte encargada del movimiento vertical del robot, los motores (amarillo) se encargan de subir y bajar la pala mediante los railes verticales
+●       ***Vertical movement system:*** Part responsible of the vertical movement of the robot, the motors (in yellow) move the central axis up and down.
 
 ![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image015.png)
 
 
-●       ***Zona central:*** parte central del robot, donde se sitúa la pala con la que devolvemos la bola y la cámara con la que la detectamos.
+●       ***Central Zone:*** Central part of the robot where the racket and the camera are placed
 
-![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image017.png)
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/centre.png)
 
-●       ***Sistema movimiento horizontal:** sistema situado junto la pala y la cámara el cual mediante un motor se desplaza en el eje horizontal.*
+●       ***Central axis:*** The central axis has the work of supporting the central Zone and allowing it to move horizontally. The yellow structure holds the racket and gives the option to rotate the racket.
 
-![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/image019.png)
+![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/centre_2.png)
 
 # Simulation
 ![Simulation_Gif](https://github.com/Tsantaella/SinglePong/blob/main/img/simulation.gif)
