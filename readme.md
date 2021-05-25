@@ -77,7 +77,6 @@ For assembling the Robot:
 ![ArduinoModel](https://github.com/Tsantaella/SinglePong/blob/main/img/image003.png)
 
 El esquema básico con el que manejaremos los motores será el de la figura de arriba.
-![RaspberryModel](https://github.com/Tsantaella/SinglePong/blob/main/img/image005.png)
 Dispondremos de una Raspberry a la que irá conectada la cámara. Con los datos recogidos por esta se realizarán los cálculos necesarios y se mandaran a los motores que también estarán conectados a la Raspberry. 
 
 
