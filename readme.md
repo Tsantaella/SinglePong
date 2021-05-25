@@ -1,4 +1,6 @@
-﻿![SinglePongImage](https://github.com/Tsantaella/SinglePong/blob/main/img/header_img.png)
+﻿<p align="center">
+ <img src="https://github.com/Tsantaella/SinglePong/blob/main/img/header_img.png">
+  </p>
 <div style=text-align:center>
 
 
@@ -73,16 +75,16 @@ For assembling the Robot:
 ●    ***Stepper Controller Pack 10u***
 
 # Hardware scheme
-
-![ArduinoModel](https://github.com/Tsantaella/SinglePong/blob/main/img/image003.png)
-
+<p align="center">
+<img src="https://github.com/Tsantaella/SinglePong/blob/main/img/image003.png"  width="750">
+</p>
 The hardware scheme we'll use is as the picture above shows.
 As we can see, we'll dispose of a Raspberry Pi that's going to be conected to the camera and the 4 motors.
 
 
 # Software Architecture
 
-![SoftwareImage](https://github.com/Tsantaella/SinglePong/blob/main/img/Software_Architecture.png)
+![SoftwareImage](https://github.com/Tsantaella/SinglePong/blob/main/img/Software_Architecture.png )
 
 This scheme shows us the steps followed at each iteration, the concatenation of steps is what gives us the ability to know where to move the robot. As we can see the camera takes an image of the scene, EnviaPython.py reads it and send it to the server, which calls BallDetection.py to detect the position and size of the ball, after this, the server sends the coordinates back to EnviaPython.cs which will move the robot.
 
