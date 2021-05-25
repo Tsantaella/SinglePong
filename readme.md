@@ -62,7 +62,7 @@ For assembling the Robot:
 
 ●    ***Raspberry Pi 4 2GB RAM***
 
-●    ***4 Nema Motor ***
+●    ***4 Nema Motor***
 
 ●    ***Raspberry pi camera V2 8MPX***
 
@@ -157,7 +157,7 @@ This simple controls allows us to test all the possible movements of the robot, 
 The robot correctly detects the ball's position and moves towards it to intercept it, being very precise on the horizontal axis. The conection between the python and C#(unity) scripts also works perfectly and in the needed time. The simulation also works as desired, with  a feel of real physics on the ball and robot movements.
 
 # Future Work
-The algorithm used to move the robot would need to be improved to have a better performance on the vertical axis, since, even if it hits the ball most of the times, there are cases where the parabolic trajectory isn't contemplated fast enough and the ball slips under the racket. To avoid that we could improve the algorithm, calculating not only the actual position but what's going to be the final position. Although doing this can be easy, it's hard to implement it fast enough that the robot has time to move after the calculation and intercept the ball.
+The algorithm used to move the robot would need to be improved to have a better performance on the vertical axis, since, even if it hits the ball most of the times, there are cases where the parabolic trajectory isn't contemplated fast enough and the ball slips under the racket. To avoid that we could improve the algorithm, calculating not only the actual position but what's going to be the final position. Although doing this can seem easy, it's hard to implement it fast enough that the robot has time to move after the calculation and intercept the ball, since it has to add the perspective, speed and trajectory to the equation.
 
 An other improvement  to implement is the racket rotation, to give angle and inclination to the ball when it impacts.
 
