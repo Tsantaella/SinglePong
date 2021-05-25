@@ -19,30 +19,30 @@ Kilian Niubó Vinuesa - 1497932
 
 
 
-* [What's this?](#what's-this?)                                                                                                                       
+* [What is this?](#what-is-this)                                                                                                                       
 
 * [Requirements](#requirements)                                                                                                              
 
 * [Hardware scheme](#hardware-scheme)                                                                                                                        
 
-* [Software Arquitecture](#software-arquitecture)                                                                                                                 
-
-* [Ball Detection](#ball-detection)                                                                                                                                                                                                                                             
-* [Structural Components](#structural-components)                                                                                             
+* [Software Arquitecture](#software-architecture)
+  
+* [Ball Detection](#ball-detection)
+  
+* [Structural Components](#structural-components)
 
 * [Simulation](#simulation)                                                                                                                     
 
-* [Resultados](#resultados)
+* [Results](#results)
   
-* [Future Work](#future_work) 
-  
+* [Future Work](#future-work)
   
 * [References](#references)
   
 
 </div>
 
-# What's this?
+# What is this?
 SinglePong is a robot that allows you to play ping pong without a partner.
 
 
